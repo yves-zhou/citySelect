@@ -1,0 +1,8 @@
+.container{position:relative;}
+/*地址选择*/
+.city-select-box{position:absolute;top:34px;left:15px;width:150px;max-height:600px;background-color:#fff;z-index:10;overflow-y:auto;border:1px solid #ccc;}
+.city-select-box ul{padding-left:0px;}
+.city-select-box li{line-height:2;cursor:pointer;text-align: center;}
+.city-select-box li:hover{background-color: #367fa9;color:#fff;}
+.close{position:absolute;top:34px;left:15px;z-index: 11;}
+.close span{cursor:pointer;}
